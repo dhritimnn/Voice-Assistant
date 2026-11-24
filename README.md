@@ -18,7 +18,7 @@ Install system audio dependencies (if using microphone/TTS) and clone the reposi
 sudo apt update
 sudo apt install python3-venv python3-dev portaudio19-dev espeak -y
 
-git clone https://github.com
+git clone https://github.com/dhritimnn/Voice-Assistant
 cd Voice-Assistant
 python3 -m venv myenv
 source myenv/bin/activate
@@ -27,7 +27,7 @@ pip install -r requirements.txt
 
 ### 2. Windows (Command Prompt)
 ```cmd
-git clone https://github.com
+git clone https://github.com/dhritimnn/Voice-Assistant
 cd Voice-Assistant
 python -m venv myenv
 myenv\Scripts\activate
@@ -37,7 +37,7 @@ pip install -r requirements.txt
 ### 3. macOS
 ```bash
 brew install portaudio
-git clone https://github.com
+git clone https://github.com/dhritimnn/Voice-Assistant
 cd Voice-Assistant
 python3 -m venv myenv
 source myenv/bin/activate
