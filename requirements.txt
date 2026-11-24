@@ -1,0 +1,11 @@
+dotenv
+openai
+pip
+piper-tts
+pipestat
+psutil
+PyAudio
+pyttsx3
+rich
+sounddevice
+SpeechRecognition
